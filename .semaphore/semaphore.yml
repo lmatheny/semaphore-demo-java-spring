@@ -52,9 +52,3 @@ blocks:
             - sleep 20
             - 'mvn -q jmeter:jmeter'
             - 'mvn jmeter:results'
-  - name: run project
-    task:
-      jobs:
-        - name: 'Job #1'
-          commands:
-            - 'mvn spring-boot:run'
